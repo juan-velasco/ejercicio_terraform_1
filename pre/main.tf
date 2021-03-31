@@ -12,7 +12,7 @@ provider "azurerm" {
 }
 
 variable "prefix" {
-  default = "curso-azure-terraform"
+  default = "curso-azure-terraform-1"
 }
 
 resource "azurerm_resource_group" "main" {
