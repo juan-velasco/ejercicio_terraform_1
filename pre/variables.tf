@@ -5,7 +5,8 @@ variable "resource_group_location" {
 }
 
 variable "vm_ssh_password" {
-  description = "Resource group location"
+  description = "SSH Password"
   type        = string
   default = "GeyPzmz56PALS4CxKnG"
+  sensitive = true
 }
